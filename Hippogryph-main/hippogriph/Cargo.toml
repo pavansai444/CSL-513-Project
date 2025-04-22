@@ -1,0 +1,10 @@
+[package]
+name = "hippogriph"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rayon = "1.10.0"
+tfhe = {path="../tfhe-rs/tfhe", features= ["odd"]}
+arrayvec = "0.7"  # or latest available
+once_cell = "1.17.1"
